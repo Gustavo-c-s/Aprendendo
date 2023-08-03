@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <h1>Aula 5</h1>
+    <div class="box">
+        <label for="mes">Escolha um numero</label><br><br>
+        <input placeholder="Numero de 1 ao 12" type="number" name="mes" id="mes"><br> <br>
+        <input type="button" onclick="mes(document.getElementById('mes').value)" value="Enviar"><br>
+        <p id="mes1"></p><hr>
+    </div>
+
+    <div class="box">
+        <label for="senac">Paciente:</label>
+        <select id="senac" name="senac">
+            <option >...</option>
+            <option value="a">A</option>
+            <option value="pa">PA</option>
+            <option value="na">NA</option>
+        </select><br><br>
+        <input type="button" onclick="senac(document.getElementById('senac').value)" value="Enviar"><br>
+        <p id="senac1"></p><hr>
+    </div>
+    
+    <div class="box">
+        <label for="contagem">10 a 0 </label><br><br>
+        <input type="button" onclick="contagem()" value="Começar">
+        <p id="demo"></p><hr>
+    </div>
+
+    <div class="box">
+        <label for="tabuada">Tabuada de '5'</label><br><br>
+        <input type="button" value="Enviar" onclick="tabuada()" class="botao">
+        <p id="tabuada"></p><hr>
+    </div>
+
+    <div class="box">
+        <label for="i">Contagem</label><br><br>
+        <input placeholder="Insira um numero" type="number" id="i" name="i"><br><br>
+        <input type="button" onclick="contagem1()" value="Começar">
+        <p id="teste"></p><hr>
+    </div>
+    <div class="box">
+        <label for="z">Tabuada</label><br><br>
+        <input placeholder="Numero aqui" type="number" name="z" id="z"><br><br>
+        <input type="button" value="Enviar" onclick="tabuada2()" class="botao">
+        <p id="tabuada2"></p><hr>
+    </div>
+    <hr>
+    <div class="left">
+        <a href="file:///C:/Users/Marcia/Desktop/Curso%20Programa%C3%A7ao/html/Aula4.html">
+            <button style="color: black; background-color: green; border-radius:10px; "> Voltar </button></a>
+    </div>
+    <div class="right">
+        <a href="file:///C:/Users/Marcia/Desktop/Curso%20Programa%C3%A7ao/html/Alua2.html">
+            <button style="color: black; background-color: green; border-radius:10px; "> Voltar aula 2 </button></a>
+    </div>
+
+
+
+
+    <script src="../js/aula5.js"></script>
+</body>
+
+</html>

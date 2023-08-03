@@ -1,0 +1,73 @@
+.box {
+    border: 3px solid black;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15%;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(95, 158, 160, 0.281);
+
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/");
+    text-align: center;
+    background-color: powderblue;
+}
+
+h1 {
+    border: 5px solid rgb(3, 3, 82);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(100, 148, 237, 0.281);
+    margin: auto;
+}
+
+h {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+label[for] {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+input[type=button] {
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid black;
+    background-color: rgba(165, 42, 42, 0.308);
+    cursor: pointer;
+
+}
+
+input[type=text] {
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid black;
+}
+
+input[type=number] {
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid black;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
